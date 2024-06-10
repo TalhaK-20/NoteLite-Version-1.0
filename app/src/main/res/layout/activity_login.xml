@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Activity"
+    tools:ignore="ExtraText,UseCompoundDrawables"
+    android:id="@+id/llGetInfo"
+    android:background="#FFFFFF"
+    android:layout_marginTop="0dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="-2dp"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notelite"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:textStyle="bold"
+        android:textColor="#315480"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        tools:ignore="ExtraText"
+        app:boxStrokeColor="#315480"
+        app:hintTextColor="#999999">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/admin_name"
+            android:padding="0dp"
+            android:id="@+id/etName"
+            android:autofillHints="Tal"
+            android:inputType="text"
+            android:textColor="#000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        tools:ignore="ExtraText"
+        app:hintTextColor="#999999"
+        app:boxStrokeColor="#315480">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/admin_id"
+            android:id="@+id/etID"
+            android:padding="0dp"
+            android:autofillHints="Tal"
+            android:inputType="number"
+            android:textColor="#000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        tools:ignore="ExtraText"
+        app:hintTextColor="#999999"
+        app:boxStrokeColor="#315480">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/security_key"
+            android:id="@+id/etSecurity"
+            android:autofillHints="Tal"
+            android:padding="0dp"
+            android:inputType="numberPassword"
+            android:textColor="#000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#315480"
+        android:drawablePadding="100dp"
+        android:text="@string/Login"
+        android:textColor="@android:color/white"
+        tools:ignore="DuplicateIds" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp">
+
+<!--        <Button-->
+<!--            android:id="@+id/btnStart"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2"-->
+
+<!--            android:backgroundTint="#315480"-->
+<!--            android:text="@string/let_s_get_started"-->
+<!--            android:textAlignment="center"-->
+
+<!--            android:textColor="@android:color/white"/>-->
+
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="-2dp"
+        android:id="@+id/line"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:backgroundTint="#315480"
+        android:text="@string/login"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp" />
+
+</LinearLayout>

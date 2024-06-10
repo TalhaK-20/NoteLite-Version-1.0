@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fabAdd" type="id" />
+    <item name="main" type="id" />
+    <item name="action_sort_title" type="id" />
+    <item name="action_sort_name" type="id" />
+</resources>
