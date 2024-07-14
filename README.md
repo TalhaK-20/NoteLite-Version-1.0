@@ -1,4 +1,4 @@
-# NoteLite Version 1.0.0
+# NoteLite Version 1.0
 
 ## Overview
 
@@ -13,7 +13,7 @@
 
 ## Video Showcase
 
-https://github.com/TalhaK-20/NoteLite-Version-1.0.0/assets/131589476/20c42b13-89e4-4da2-9559-8410b397a12f
+https://github.com/TalhaK-20/NoteLite-Version-1.0/assets/131589476/20c42b13-89e4-4da2-9559-8410b397a12f
 
 ## Requirements
 
@@ -25,7 +25,7 @@ https://github.com/TalhaK-20/NoteLite-Version-1.0.0/assets/131589476/20c42b13-89
 1. Clone the repository
 
     ```sh
-    git clone https://github.com/TalhaK-20/NoteLite-Version-1.0.0.git
+    git clone https://github.com/TalhaK-20/NoteLite-Version-1.0.git
     ```
 
 2. Open the project in Android Studio.
